@@ -1,0 +1,85 @@
+{
+  "meta": {
+    "title": "Merca Emprende — Impulsa tu negocio",
+    "description": "Conecta, aprende y vende. Inventariado, Marketplace, Formación, Formalización, Finanzas y Ferias."
+  },
+  "heroSlides": [
+    {
+      "id": "s1",
+      "title": "Impulsa tu negocio con Merca Emprende",
+      "subtitle": "Herramientas para inventario, ventas y formación para emprendedores venezolanos.",
+      "image": "/assets/hero-1.jpg",
+      "ctaPrimary": {"label":"¡Comenzar Ahora!", "href":"/register"},
+      "ctaSecondary": {"label":"Conoce más", "href":"#features"}
+    },
+    {
+      "id": "s2",
+      "title": "Tu Marketplace, tu vitrina",
+      "subtitle": "Muestra tus productos y llega a más clientes con herramientas fáciles de usar.",
+      "image": "/assets/hero-2.jpg",
+      "ctaPrimary": {"label":"Ir al Marketplace", "href":"/marketplace"},
+      "ctaSecondary": {"label":"Ver cómo funciona", "href":"#marketplace"}
+    },
+    {
+      "id": "s3",
+      "title": "Formación y formalización",
+      "subtitle": "Cursos, diplomados y apoyo para formalizar tu emprendimiento.",
+      "image": "/assets/hero-3.jpg",
+      "ctaPrimary": {"label":"Ver cursos", "href":"/courses"},
+      "ctaSecondary": {"label":"Eventos y ferias", "href":"#fairs"}
+    }
+  ],
+  "sections": [
+    {
+      "id":"inventariado",
+      "type":"feature-grid",
+      "title":"Inventariado",
+      "items":[
+        {"title":"Inventario rápido","desc":"Registra y controla stock fácilmente.","image":"/assets/inv-1.jpg"},
+        {"title":"Reportes","desc":"Reportes por ventas y rotación.","image":"/assets/inv-2.jpg"},
+        {"title":"KPI","desc":"Indicadores clave para decisiones rápidas.","image":"/assets/inv-3.jpg"}
+      ]
+    },
+    {
+      "id":"sistema-inventariado",
+      "type":"feature-hero",
+      "title":"Sistema Inventariado",
+      "desc":"Sistema integral para gestionar productos, lotes y movimientos.",
+      "image":"/assets/system.jpg"
+    },
+    {
+      "id":"marketplace",
+      "type":"marketplace",
+      "title":"Marketplace",
+      "desc":"Vitrina pública y vista para emprendedores.",
+      "image":"/assets/marketplace.jpg"
+    },
+    {
+      "id":"formacion",
+      "type":"cards",
+      "title":"Formación",
+      "items":[
+        {"title":"Diplomado en ventas","duration":"12 semanas"},
+        {"title":"Curso de marketing digital","duration":"6 semanas"}
+      ]
+    },
+    {
+      "id":"formalizacion",
+      "type":"steps",
+      "title":"Formalización",
+      "items":[{"step":"Paso 1","desc":"Documentos requeridos"},{"step":"Paso 2","desc":"Registro legal"}]
+    },
+    {
+      "id":"finanzas",
+      "type":"tools",
+      "title":"Finanzas",
+      "desc":"Calculadoras y opciones de financiamiento."
+    },
+    {
+      "id":"ferias",
+      "type":"events",
+      "title":"Ferias",
+      "items":[{"title":"Feria de emprendimiento 2026","date":"2026-03-12"}]
+    }
+  ]
+}
